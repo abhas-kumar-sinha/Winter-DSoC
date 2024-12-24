@@ -1,6 +1,6 @@
-import LoginForm from './loginForm';
-import Slider from './slider';
-import './login.css'
+import LoginForm from './LoginForm';
+import Slider from './Slider';
+import './Login.css'
 
 const Auth = () => {
     const loginSwiper = ["home", "about-us", "blog", "pricing"];

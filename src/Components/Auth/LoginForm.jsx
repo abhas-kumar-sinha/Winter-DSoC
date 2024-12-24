@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './login.css';
+import './Login.css';
 import BootstrapToast from '../Toast/BootstrapToast';
 import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../GlobalContext/GlobalContext.jsx';

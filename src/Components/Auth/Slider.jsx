@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
-import './login.css';
+import './Login.css';
 
 const Slider = (props) => {
     const swiperList = props.swiperList;
