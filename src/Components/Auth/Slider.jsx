@@ -77,8 +77,4 @@ Slider.propTypes = {
     swiperList: PropTypes.arrayOf(PropTypes.string),
   };
 
-Slider.defaultProps = {
-    swiperList: []
-}
-
 export default Slider;

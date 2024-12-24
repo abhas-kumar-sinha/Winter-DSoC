@@ -28,7 +28,7 @@ const BootstrapToast = ({ message, show, onClose }) => {
 BootstrapToast.propTypes = {
     message: PropTypes.string.isRequired,
     show: PropTypes.bool.isRequired,
-    onClose: PropTypes.bool.isRequired,
+    onClose: PropTypes.func.isRequired,
 }
 
 export default BootstrapToast;
