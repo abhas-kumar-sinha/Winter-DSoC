@@ -11,7 +11,7 @@ const Dashboard = () => {
 
     return (
         <>
-        <NavBar buttonValue={"Logout"} navigationValue={"/Authorize"} formData = {formData}/>
+        <NavBar buttonValue={"Logout"} navigationValue={"/"} formData = {formData}/>
         <div className="herosection-wrapper d-flex">
             <Aside formData = {formData} />
             <HeroSection setFormData = {setFormData} formData = {formData} />
